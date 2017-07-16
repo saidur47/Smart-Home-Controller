@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da2ae1dc-c2c3-4f31-afb7-51a356ddb1de" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="smart_home_control@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="smart_home_control@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="393" column="2" lean-forward="false" selection-start-line="393" selection-start-column="2" selection-end-line="393" selection-end-column="2" />
+              <folding>
+                <element signature="e#7#63#0#PHP" expanded="true" />
+                <element signature="e#5960#6567#1#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="houses.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helper_functions/houses.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-72">
+              <caret line="14" column="70" lean-forward="false" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+              <folding>
+                <marker date="1492279580715" expanded="true" signature="318:389" ph="SELECT `hous... house_list" />
+                <marker date="1492279580715" expanded="true" signature="1177:1242" ph="SELECT count... house_list" />
+                <marker date="1492279580715" expanded="true" signature="1596:1696" ph="INSERT INTO `house_list`... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client_authentication.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helper_functions/client_authentication.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="521">
+              <caret line="113" column="69" lean-forward="true" selection-start-line="113" selection-start-column="69" selection-end-line="113" selection-end-column="92" />
+              <folding>
+                <element signature="n#registerNewUser#0;n#!!top" expanded="false" />
+                <element signature="n#changePassword#0;n#!!top" expanded="false" />
+                <marker date="1492253765457" expanded="true" signature="366:438" ph="SELECT * FRO... client_credential" />
+                <marker date="1492253765457" expanded="true" signature="752:845" ph="SELECT * FRO... client_group" />
+                <marker date="1492253765457" expanded="true" signature="1271:1342" ph="SELECT count... client_credential" />
+                <marker date="1492253765457" expanded="true" signature="1897:2077" ph="INSERT INTO `client_credential`... " />
+                <marker date="1492253765457" expanded="true" signature="2957:3029" ph="INSERT INTO `client_details`... " />
+                <marker date="1492253765457" expanded="true" signature="2957:3039" ph="INSERT INTO `client_credential`... " />
+                <marker date="1492253765457" expanded="true" signature="4312:4386" ph="SELECT * FRO... client_credential" />
+                <marker date="1492253765457" expanded="true" signature="6281:6338" ph="SELECT * FRO... client_credential" />
+                <marker date="1492253765457" expanded="true" signature="6708:6795" ph="UPDATE `clie... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helper_functions/site.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="322" column="21" lean-forward="false" selection-start-line="322" selection-start-column="9" selection-end-line="322" selection-end-column="21" />
+              <folding>
+                <element signature="n#registerNewAdmin#0;n#!!top" expanded="false" />
+                <element signature="n#authenticateAdminUser#0;n#!!top" expanded="false" />
+                <element signature="n#getAdminUserList#0;n#!!top" expanded="false" />
+                <element signature="n#addNewClient#0;n#!!top" expanded="false" />
+                <element signature="n#registerNewUserForClient#0;n#!!top" expanded="false" />
+                <marker date="1492264860542" expanded="true" signature="306:384" ph="SELECT * FRO... admin_details" />
+                <marker date="1492264860542" expanded="true" signature="782:912" ph="INSERT INTO `admin_details`... " />
+                <marker date="1492264860542" expanded="true" signature="2329:2443" ph="SELECT * FRO... admin_details" />
+                <marker date="1492264860542" expanded="true" signature="4289:4409" ph="SELECT `admi... admin_details" />
+                <marker date="1492264860542" expanded="true" signature="5096:5328" ph="SELECT G.cgi... client_group" />
+                <marker date="1492264860542" expanded="true" signature="6067:6139" ph="SELECT * FRO... client_credential" />
+                <marker date="1492264860542" expanded="true" signature="6448:6500" ph="SELECT (1+MA... client_group" />
+                <marker date="1492264860542" expanded="true" signature="6756:6831" ph="INSERT INTO `client_group`... " />
+                <marker date="1492264860542" expanded="true" signature="7219:7290" ph="SELECT count... client_credential" />
+                <marker date="1492264860542" expanded="true" signature="7863:8043" ph="INSERT INTO `client_credential`... " />
+                <marker date="1492264860542" expanded="true" signature="8932:9014" ph="INSERT INTO `client_details`... " />
+                <marker date="1492264860542" expanded="true" signature="9527:9593" ph="UPDATE `clie... " />
+                <marker date="1492264860542" expanded="true" signature="10914:10986" ph="SELECT * FRO... client_credential" />
+                <marker date="1492264860542" expanded="true" signature="11300:11393" ph="SELECT count... client_group" />
+                <marker date="1492264860542" expanded="true" signature="11819:11890" ph="SELECT count... client_credential" />
+                <marker date="1492264860542" expanded="true" signature="12445:12625" ph="INSERT INTO `client_credential`... " />
+                <marker date="1492264860542" expanded="true" signature="13303:13385" ph="INSERT INTO `client_details`... " />
+                <marker date="1492264860542" expanded="true" signature="14644:14689" ph="DELETE FROM " />
+                <marker date="1492264860542" expanded="true" signature="14883:14933" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="devices.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helper_functions/devices.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="45" column="42" lean-forward="true" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="42" />
+              <folding>
+                <element signature="n#addNewDevice#0;n#!!top" expanded="false" />
+                <element signature="n#updateDeviceDetails#0;n#!!top" expanded="false" />
+                <marker date="1491768588728" expanded="true" signature="316:535" ph="SELECT `devi... device_list" />
+                <marker date="1491768588728" expanded="true" signature="1548:1748" ph="SELECT `devi... device_list" />
+                <marker date="1491768588728" expanded="true" signature="2706:2814" ph="SELECT count... device_list" />
+                <marker date="1491768588728" expanded="true" signature="3356:3577" ph="INSERT INTO `device_list`... " />
+                <marker date="1491768588728" expanded="true" signature="4980:5164" ph="UPDATE `devi... " />
+                <marker date="1491768588728" expanded="true" signature="6434:6613" ph="UPDATE `devi... " />
+                <marker date="1491768588728" expanded="true" signature="6673:6823" ph="INSERT INTO `device_change_log`... " />
+                <marker date="1491768588728" expanded="true" signature="9776:10199" ph="SELECT d.nam... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getDeviceStatesOfRoomFromDb</find>
+      <find>getListOfRoomFromDb</find>
+      <find>$returnOnbject</find>
+      <find>&quot;&quot;</find>
+      <find>zend</find>
+      <find>bz2</find>
+      <find>$query_user_create</find>
+      <find>jwt</find>
+      <find>$server</find>
+      <find>$data[&quot;user_count_result&quot;]</find>
+      <find>:name</find>
+      <find>$inserted</find>
+      <find>body</find>
+      <find>$uid</find>
+      <find>$query_device_create</find>
+      <find>class</find>
+      <find>updateDeviceStates</find>
+      <find>updateDevicesState</find>
+      <find>login</find>
+      <find>result</find>
+      <find>returnObject</find>
+      <find>register</find>
+      <find>gethea</find>
+      <find>listOfHouses</find>
+      <find>Access-Control-Allow-Headers</find>
+      <find>addNew</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>$returnObject</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/functions/getSelectedDevice.php" />
+        <option value="$PROJECT_DIR$/functions/testFunc.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/functions/registerUser.php" />
+        <option value="$PROJECT_DIR$/functions/updateDeviceStatesOfRoomInDb.php" />
+        <option value="$PROJECT_DIR$/functions/getDeviceStatesOfRoomFromDb.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/functions/authenticateUser.php" />
+        <option value="$PROJECT_DIR$/functions/getListOfRoomFromDb.php" />
+        <option value="$PROJECT_DIR$/index_old.php" />
+        <option value="$PROJECT_DIR$/../../php/php.ini" />
+        <option value="$PROJECT_DIR$/db-connect.php" />
+        <option value="$PROJECT_DIR$/helper_functions/house_info.php" />
+        <option value="$PROJECT_DIR$/helper_functions/rooms.php" />
+        <option value="$PROJECT_DIR$/helper_functions/devices.php" />
+        <option value="$PROJECT_DIR$/helper_functions/admin.php" />
+        <option value="$PROJECT_DIR$/helper_functions/client_authentication.php" />
+        <option value="$PROJECT_DIR$/helper_functions/site.php" />
+        <option value="$PROJECT_DIR$/helper_functions/houses.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/container-interop/container-interop" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/vendor/tuupola/slim-jwt-auth" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/tuupola/base62" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/vendor/slim/pdo" />
+      <path value="$PROJECT_DIR$/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/vendor/tuupola/slim-basic-auth" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeControlAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeControlAPI" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeControlAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeControlAPI" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helper_functions" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="G:/programs/node/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="G:\programs\node\node.exe" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/ZendDebugger.dll" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.php">
+    <configuration default="false" name="index.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" uri="http://localhost:63342/HomeControlAPI/index.php">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da2ae1dc-c2c3-4f31-afb7-51a356ddb1de" name="Default" comment="" />
+      <created>1487912090712</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1487912090712</updated>
+      <workItem from="1487912092175" duration="2905000" />
+      <workItem from="1487928683133" duration="9621000" />
+      <workItem from="1487967004574" duration="302000" />
+      <workItem from="1488008592621" duration="874000" />
+      <workItem from="1488603343552" duration="1049000" />
+      <workItem from="1488618643245" duration="5447000" />
+      <workItem from="1489131511453" duration="4241000" />
+      <workItem from="1489209054813" duration="7885000" />
+      <workItem from="1489425048274" duration="9591000" />
+      <workItem from="1489774384755" duration="1305000" />
+      <workItem from="1489809523227" duration="5013000" />
+      <workItem from="1490031566410" duration="7250000" />
+      <workItem from="1490198724697" duration="2049000" />
+      <workItem from="1490201660126" duration="922000" />
+      <workItem from="1490202598303" duration="607000" />
+      <workItem from="1490510873437" duration="7538000" />
+      <workItem from="1490539132574" duration="6759000" />
+      <workItem from="1490632533451" duration="1198000" />
+      <workItem from="1490672939778" duration="7606000" />
+      <workItem from="1490934013890" duration="4570000" />
+      <workItem from="1491143443553" duration="639000" />
+      <workItem from="1491546304766" duration="13439000" />
+      <workItem from="1491654062339" duration="1377000" />
+      <workItem from="1491663240593" duration="4337000" />
+      <workItem from="1491717645492" duration="6173000" />
+      <workItem from="1491746159223" duration="8499000" />
+      <workItem from="1492110500274" duration="3227000" />
+      <workItem from="1492162265370" duration="2543000" />
+      <workItem from="1492231932334" duration="24467000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="151433000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.141258" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26041666" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1987315" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29175475" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/functions_old/authenticateUser.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/index.php</url>
+          <line>45</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/helper_functions/client_authentication.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="23" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/functions_old/testFunc.php" />
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions_old/authenticateUser.php" />
+    <entry file="file://$PROJECT_DIR$/functions_old/registerUser.php" />
+    <entry file="file://$PROJECT_DIR$/functions_old/getSelectedDevice.php" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#63#0#PHP" expanded="true" />
+            <element signature="e#5960#6567#1#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions_old/testFunc.php" />
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions_old/authenticateUser.php" />
+    <entry file="file://$PROJECT_DIR$/functions_old/registerUser.php" />
+    <entry file="file://$PROJECT_DIR$/functions_old/getSelectedDevice.php" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="48" column="38" lean-forward="false" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="38" />
+          <folding>
+            <element signature="e#7#63#0#PHP" expanded="true" />
+            <element signature="e#5960#6567#1#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions_old/testFunc.php" />
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions_old/authenticateUser.php" />
+    <entry file="file://$PROJECT_DIR$/functions_old/registerUser.php" />
+    <entry file="file://$PROJECT_DIR$/functions_old/getSelectedDevice.php" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#63#0#PHP" expanded="true" />
+            <element signature="e#5960#6567#1#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions_old/testFunc.php" />
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions_old/authenticateUser.php" />
+    <entry file="file://$PROJECT_DIR$/functions_old/registerUser.php" />
+    <entry file="file://$PROJECT_DIR$/functions_old/getSelectedDevice.php" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#63#0#PHP" expanded="true" />
+            <element signature="e#5960#6567#1#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="29" />
+          <folding>
+            <element signature="e#7#63#0#PHP" expanded="true" />
+            <element signature="e#5960#6567#1#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions_old/testFunc.php" />
+    <entry file="file://$PROJECT_DIR$/functions_old/getSelectedDevice.php" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="787" column="9" lean-forward="false" selection-start-line="787" selection-start-column="9" selection-end-line="787" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/CSPRNG.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions_old/testFunc.php" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="551" column="9" lean-forward="false" selection-start-line="551" selection-start-column="9" selection-end-line="551" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/slim/slim/Slim/App.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="71" column="20" lean-forward="false" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../php/php.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="880" column="17" lean-forward="false" selection-start-line="880" selection-start-column="14" selection-end-line="880" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f1f2f058-681e-4785-bbc0-141cc733d8b4/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db-connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions_old/getSelectedDevice.php" />
+    <entry file="file://$PROJECT_DIR$/functions_old/registerUser.php" />
+    <entry file="file://$PROJECT_DIR$/functions_old/getDeviceStatesOfRoomFromDb.php" />
+    <entry file="file://$PROJECT_DIR$/functions_old/getListOfRoomFromDb.php" />
+    <entry file="file://$PROJECT_DIR$/functions_old/authenticateUser.php" />
+    <entry file="file://$PROJECT_DIR$/functions_old/updateDeviceStatesOfRoomInDb.php" />
+    <entry file="file://$PROJECT_DIR$/helper_functions/rooms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding>
+            <element signature="n#listOfRooms#0;n#!!top" expanded="false" />
+            <element signature="n#addNewRoom#0;n#!!top" expanded="false" />
+            <marker date="1491725157966" expanded="true" signature="311:428" ph="SELECT `room... room_list" />
+            <marker date="1491725157966" expanded="true" signature="1340:1440" ph="SELECT `room... room_list" />
+            <marker date="1491725157966" expanded="true" signature="1411:1422" ph="SELECT `hous... house_list" />
+            <marker date="1491725157966" expanded="true" signature="2300:2363" ph="SELECT count... room_list" />
+            <marker date="1491725157966" expanded="true" signature="2710:2828" ph="INSERT INTO `room_list`... " />
+            <marker date="1491725157966" expanded="true" signature="3924:4039" ph="UPDATE `room... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_old.php" />
+    <entry file="file://$PROJECT_DIR$/helper_functions/devices.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="45" column="42" lean-forward="true" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="42" />
+          <folding>
+            <element signature="n#addNewDevice#0;n#!!top" expanded="false" />
+            <element signature="n#updateDeviceDetails#0;n#!!top" expanded="false" />
+            <marker date="1491768588728" expanded="true" signature="316:535" ph="SELECT `devi... device_list" />
+            <marker date="1491768588728" expanded="true" signature="1548:1748" ph="SELECT `devi... device_list" />
+            <marker date="1491768588728" expanded="true" signature="2706:2814" ph="SELECT count... device_list" />
+            <marker date="1491768588728" expanded="true" signature="3356:3577" ph="INSERT INTO `device_list`... " />
+            <marker date="1491768588728" expanded="true" signature="4980:5164" ph="UPDATE `devi... " />
+            <marker date="1491768588728" expanded="true" signature="6434:6613" ph="UPDATE `devi... " />
+            <marker date="1491768588728" expanded="true" signature="6673:6823" ph="INSERT INTO `device_change_log`... " />
+            <marker date="1491768588728" expanded="true" signature="9776:10199" ph="SELECT d.nam... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helper_functions/site.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="322" column="21" lean-forward="false" selection-start-line="322" selection-start-column="9" selection-end-line="322" selection-end-column="21" />
+          <folding>
+            <element signature="n#registerNewAdmin#0;n#!!top" expanded="false" />
+            <element signature="n#authenticateAdminUser#0;n#!!top" expanded="false" />
+            <element signature="n#getAdminUserList#0;n#!!top" expanded="false" />
+            <element signature="n#addNewClient#0;n#!!top" expanded="false" />
+            <element signature="n#registerNewUserForClient#0;n#!!top" expanded="false" />
+            <marker date="1492264860542" expanded="true" signature="306:384" ph="SELECT * FRO... admin_details" />
+            <marker date="1492264860542" expanded="true" signature="782:912" ph="INSERT INTO `admin_details`... " />
+            <marker date="1492264860542" expanded="true" signature="2329:2443" ph="SELECT * FRO... admin_details" />
+            <marker date="1492264860542" expanded="true" signature="4289:4409" ph="SELECT `admi... admin_details" />
+            <marker date="1492264860542" expanded="true" signature="5096:5328" ph="SELECT G.cgi... client_group" />
+            <marker date="1492264860542" expanded="true" signature="6067:6139" ph="SELECT * FRO... client_credential" />
+            <marker date="1492264860542" expanded="true" signature="6448:6500" ph="SELECT (1+MA... client_group" />
+            <marker date="1492264860542" expanded="true" signature="6756:6831" ph="INSERT INTO `client_group`... " />
+            <marker date="1492264860542" expanded="true" signature="7219:7290" ph="SELECT count... client_credential" />
+            <marker date="1492264860542" expanded="true" signature="7863:8043" ph="INSERT INTO `client_credential`... " />
+            <marker date="1492264860542" expanded="true" signature="8932:9014" ph="INSERT INTO `client_details`... " />
+            <marker date="1492264860542" expanded="true" signature="9527:9593" ph="UPDATE `clie... " />
+            <marker date="1492264860542" expanded="true" signature="10914:10986" ph="SELECT * FRO... client_credential" />
+            <marker date="1492264860542" expanded="true" signature="11300:11393" ph="SELECT count... client_group" />
+            <marker date="1492264860542" expanded="true" signature="11819:11890" ph="SELECT count... client_credential" />
+            <marker date="1492264860542" expanded="true" signature="12445:12625" ph="INSERT INTO `client_credential`... " />
+            <marker date="1492264860542" expanded="true" signature="13303:13385" ph="INSERT INTO `client_details`... " />
+            <marker date="1492264860542" expanded="true" signature="14644:14689" ph="DELETE FROM " />
+            <marker date="1492264860542" expanded="true" signature="14883:14933" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helper_functions/client_authentication.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="113" column="69" lean-forward="true" selection-start-line="113" selection-start-column="69" selection-end-line="113" selection-end-column="92" />
+          <folding>
+            <element signature="n#registerNewUser#0;n#!!top" expanded="false" />
+            <element signature="n#changePassword#0;n#!!top" expanded="false" />
+            <marker date="1492253765457" expanded="true" signature="366:438" ph="SELECT * FRO... client_credential" />
+            <marker date="1492253765457" expanded="true" signature="752:845" ph="SELECT * FRO... client_group" />
+            <marker date="1492253765457" expanded="true" signature="1271:1342" ph="SELECT count... client_credential" />
+            <marker date="1492253765457" expanded="true" signature="1897:2077" ph="INSERT INTO `client_credential`... " />
+            <marker date="1492253765457" expanded="true" signature="2957:3029" ph="INSERT INTO `client_details`... " />
+            <marker date="1492253765457" expanded="true" signature="2957:3039" ph="INSERT INTO `client_credential`... " />
+            <marker date="1492253765457" expanded="true" signature="4312:4386" ph="SELECT * FRO... client_credential" />
+            <marker date="1492253765457" expanded="true" signature="6281:6338" ph="SELECT * FRO... client_credential" />
+            <marker date="1492253765457" expanded="true" signature="6708:6795" ph="UPDATE `clie... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helper_functions/houses.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="14" column="70" lean-forward="false" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+          <folding>
+            <marker date="1492279580715" expanded="true" signature="318:389" ph="SELECT `hous... house_list" />
+            <marker date="1492279580715" expanded="true" signature="1177:1242" ph="SELECT count... house_list" />
+            <marker date="1492279580715" expanded="true" signature="1596:1696" ph="INSERT INTO `house_list`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="393" column="2" lean-forward="false" selection-start-line="393" selection-start-column="2" selection-end-line="393" selection-end-column="2" />
+          <folding>
+            <element signature="e#7#63#0#PHP" expanded="true" />
+            <element signature="e#5960#6567#1#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

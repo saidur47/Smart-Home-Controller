@@ -1,0 +1,12 @@
+{
+    "name": "home-control-api-service",
+    "description": "This is the API provider application  for Home Control Project",
+    "require": {
+        "slim/slim": "^3.0",
+        "slim/pdo": "~1.9",
+        "tuupola/slim-jwt-auth": "^2.3",
+        "tuupola/base62": "^0.7.0",
+        "paragonie/random_compat": "^2.0",
+        "tuupola/slim-basic-auth": "^2.2"
+    }
+}

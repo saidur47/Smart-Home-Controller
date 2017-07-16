@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_room_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.project.cse499.homecontrol.Activities.Rooms.EditRoomDetails">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editRoomLayoutOne"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="Room Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/etRoomName"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editRoomLayoutTwo"
+        android:layout_below="@+id/editRoomLayoutOne"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:text="Room Details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/etRoomDetails" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editRoomLayoutTwo"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:text="Cancel"
+            android:layout_height="50dp"
+            android:id="@+id/btnCancelRoom"
+            android:layout_weight="1"
+            android:layout_marginEnd="31dp"
+            android:layout_width="100dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:text="Save"
+            android:id="@+id/btnSaveRoom"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:layout_width="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp" />
+    </RelativeLayout>
+</RelativeLayout>

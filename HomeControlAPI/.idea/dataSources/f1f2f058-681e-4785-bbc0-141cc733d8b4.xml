@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="smart_home_control@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="smart_home_control">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="flate_flood"/>
+    <schema id="4" parent="1" name="hcapiservice"/>
+    <schema id="5" parent="1" name="homeautomate"/>
+    <schema id="6" parent="1" name="home_control"/>
+    <schema id="7" parent="1" name="information_schema"/>
+    <schema id="8" parent="1" name="mysite"/>
+    <schema id="9" parent="1" name="mysql"/>
+    <schema id="10" parent="1" name="performance_schema"/>
+    <schema id="11" parent="1" name="phpmyadmin"/>
+    <schema id="12" parent="1" name="secureddb"/>
+    <schema id="13" parent="1" name="test"/>
+    <table id="14" parent="2" name="client_credential"/>
+    <table id="15" parent="2" name="client_details"/>
+    <table id="16" parent="2" name="client_group"/>
+    <table id="17" parent="2" name="device_change_log"/>
+    <table id="18" parent="2" name="device_list"/>
+    <table id="19" parent="2" name="house_list"/>
+    <table id="20" parent="2" name="room_list"/>
+    <routine id="21" parent="2" name="register">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="22" parent="2" name="sp_client_register">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <column id="23" parent="14" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="24" parent="14" name="userid">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="14" name="username">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="26" parent="14" name="password">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="27" parent="14" name="email">
+      <Position>5</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="28" parent="14" name="cgid">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="14" name="usertype">
+      <Position>7</Position>
+      <DataType>tinyint(2)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="30" parent="14" name="activation_status">
+      <Position>8</Position>
+      <DataType>tinyint(4)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <index id="31" parent="14" name="id_UNIQUE">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="32" parent="14" name="userid_UNIQUE">
+      <ColNames>userid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="33" parent="14" name="username_UNIQUE">
+      <ColNames>username</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="34" parent="14" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="35" parent="14" name="id_UNIQUE">
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>id_UNIQUE</UnderlyingIndexName>
+    </key>
+    <key id="36" parent="14" name="userid_UNIQUE">
+      <ColNames>userid</ColNames>
+      <UnderlyingIndexName>userid_UNIQUE</UnderlyingIndexName>
+    </key>
+    <key id="37" parent="14" name="username_UNIQUE">
+      <ColNames>username</ColNames>
+      <UnderlyingIndexName>username_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="38" parent="15" name="user_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="39" parent="15" name="name">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="40" parent="15" name="address">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <index id="41" parent="15" name="user_id_UNIQUE">
+      <ColNames>user_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="42" parent="15" name="user_id_UNIQUE">
+      <ColNames>user_id</ColNames>
+      <UnderlyingIndexName>user_id_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="43" parent="16" name="id">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="44" parent="16" name="cgid">
+      <Position>2</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="16" name="owner_id">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="46" parent="16" name="activation_status">
+      <Position>4</Position>
+      <DataType>tinyint(3)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="47" parent="16" name="activation">
+      <Position>5</Position>
+      <DataType>varchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="48" parent="16" name="cgid_UNIQUE">
+      <ColNames>cgid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="49" parent="16" name="id_UNIQUE">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="50" parent="16" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="51" parent="16" name="id_UNIQUE">
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>id_UNIQUE</UnderlyingIndexName>
+    </key>
+    <key id="52" parent="16" name="cgid_UNIQUE">
+      <ColNames>cgid</ColNames>
+      <UnderlyingIndexName>cgid_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="53" parent="17" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="54" parent="17" name="cgid">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="55" parent="17" name="user_id">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="17" name="house_id">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="17" name="room_id">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="17" name="device_id">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="59" parent="17" name="status">
+      <Position>7</Position>
+      <DataType>tinyint(4)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="17" name="log_time">
+      <Position>8</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="61" parent="17" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="62" parent="18" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="63" parent="18" name="device_id">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="64" parent="18" name="room_id">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="65" parent="18" name="house_id">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="66" parent="18" name="cgid">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="67" parent="18" name="name">
+      <Position>6</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="68" parent="18" name="details">
+      <Position>7</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="69" parent="18" name="swtich_state">
+      <Position>8</Position>
+      <DataType>binary(1)|0</DataType>
+    </column>
+    <column id="70" parent="18" name="lastchangedby">
+      <Position>9</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="71" parent="18" name="lastchangedfrom">
+      <Position>10</Position>
+      <DataType>tinyint(3)|0</DataType>
+    </column>
+    <column id="72" parent="18" name="device_type">
+      <Position>11</Position>
+      <DataType>tinyint(4)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <index id="73" parent="18" name="id_UNIQUE">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="74" parent="18" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="75" parent="18" name="id_UNIQUE">
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>id_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="76" parent="19" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="77" parent="19" name="house_id">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="78" parent="19" name="cgid">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="79" parent="19" name="name">
+      <Position>4</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="80" parent="19" name="details">
+      <Position>5</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <index id="81" parent="19" name="id_UNIQUE">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="82" parent="19" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="83" parent="19" name="id_UNIQUE">
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>id_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="84" parent="20" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="85" parent="20" name="room_id">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="86" parent="20" name="house_id">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="87" parent="20" name="cgid">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="88" parent="20" name="name">
+      <Position>5</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="89" parent="20" name="details">
+      <Position>6</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="90" parent="20" name="temperature">
+      <Position>7</Position>
+      <DataType>float|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="91" parent="20" name="id_UNIQUE">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="92" parent="20" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="93" parent="20" name="id_UNIQUE">
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>id_UNIQUE</UnderlyingIndexName>
+    </key>
+    <argument id="94" parent="21" name="uname">
+      <DataType>varchar(45)|0</DataType>
+    </argument>
+    <argument id="95" parent="21" name="upassword">
+      <DataType>text|0</DataType>
+    </argument>
+    <argument id="96" parent="21" name="uemail">
+      <DataType>varchar(100)|0</DataType>
+    </argument>
+    <argument id="97" parent="21" name="ucgid">
+      <DataType>int(11)|0</DataType>
+    </argument>
+    <argument id="98" parent="21" name="ucode">
+      <DataType>varchar(10)|0</DataType>
+    </argument>
+    <argument id="99" parent="22" name="uname">
+      <DataType>varchar(45)|0</DataType>
+    </argument>
+    <argument id="100" parent="22" name="upassword">
+      <DataType>text|0</DataType>
+    </argument>
+    <argument id="101" parent="22" name="uemail">
+      <DataType>varchar(100)|0</DataType>
+    </argument>
+    <argument id="102" parent="22" name="ucgid">
+      <DataType>int(11)|0</DataType>
+    </argument>
+    <argument id="103" parent="22" name="ucode">
+      <DataType>varchar(10)|0</DataType>
+    </argument>
+    <argument id="104" parent="22" name="newID">
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>int(11)|0</DataType>
+    </argument>
+  </database-model>
+</dataSource>

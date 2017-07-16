@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_devices"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.project.cse499.homecontrol.Activities.Devices.DevicesActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="80dp"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/btnRefreshData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Refresh"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:elevation="10dp"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/background_light" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="225dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="20dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        app:srcCompat="@android:drawable/ic_menu_edit"
+                        android:id="@+id/ibDeviceOne"
+                        android:layout_weight="1"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:background="@android:color/transparent" />
+
+                    <Switch
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:fadingEdge="horizontal|vertical"
+                        android:splitTrack="false"
+                        android:text="Device Name"
+                        android:id="@+id/swDeviceOne" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <ImageButton
+                        app:srcCompat="@android:drawable/ic_menu_edit"
+                        android:id="@+id/ibDeviceTwo"
+                        android:layout_weight="1"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:background="@android:color/transparent" />
+                    <Switch
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:fadingEdge="horizontal|vertical"
+                        android:splitTrack="false"
+                        android:text="Device Name"
+                        android:id="@+id/swDeviceTwo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <ImageButton
+                        app:srcCompat="@android:drawable/ic_menu_edit"
+                        android:id="@+id/ibDeviceThree"
+                        android:layout_weight="1"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:background="@android:color/transparent" />
+                    <Switch
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:fadingEdge="horizontal|vertical"
+                        android:splitTrack="false"
+                        android:text="Device Name"
+                        android:id="@+id/swDeviceThree" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <ImageButton
+                        app:srcCompat="@android:drawable/ic_menu_edit"
+                        android:id="@+id/ibDeviceFour"
+                        android:layout_weight="1"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:background="@android:color/transparent" />
+                    <Switch
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:fadingEdge="horizontal|vertical"
+                        android:splitTrack="false"
+                        android:text="Device Name"
+                        android:id="@+id/swDeviceFour" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/landingSettingsLayout"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnShowLog"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="12dp"
+                android:background="@color/colorPrimary"
+                android:elevation="10dp"
+                android:text="View Log"
+                android:textAlignment="center"
+                android:layout_width="120dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/background_light" />
+
+            <Button
+                android:id="@+id/btnSignOutDL"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/btnShowLog"
+                android:layout_alignBottom="@+id/btnShowLog"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="21dp"
+                android:layout_weight="0.08"
+                android:width="50dp"
+                android:background="@android:color/holo_red_dark"
+                android:elevation="10dp"
+                android:text="Sign Out"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textStyle="normal|bold"
+                android:layout_width="120dp"
+                android:layout_marginLeft="10dp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

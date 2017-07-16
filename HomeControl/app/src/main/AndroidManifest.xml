@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.cse499.homecontrol">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activities.Others.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.Authentication.MainActivity"
+            android:label="Smart Home Control"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".Activities.Authentication.RegisterActivity"
+            android:parentActivityName=".Activities.Authentication.MainActivity"
+            android:label="Register"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.project.cse499.homecontrol.Activities.Authentication.MainActivity" />
+        </activity>
+        <activity android:name=".Activities.Authentication.RegisterSuccess"
+            android:parentActivityName=".Activities.Authentication.MainActivity"
+            android:label="Register Success"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.project.cse499.homecontrol.Activities.Authentication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.Authentication.SigninActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName=".Activities.Authentication.MainActivity"
+            android:screenOrientation="portrait"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.project.cse499.homecontrol.Activities.Authentication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.Others.LandingActivity"
+            android:label="Dashboard"
+            android:parentActivityName=".Activities.Authentication.MainActivity"
+            android:screenOrientation="portrait"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.project.cse499.homecontrol.Activities.Authentication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.Others.SettingsActivity"
+            android:label="Settings"
+            android:parentActivityName=".Activities.Others.LandingActivity"
+            android:screenOrientation="portrait"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.project.cse499.homecontrol.Activities.Others.LandingActivity" />
+        </activity>
+        <activity android:name=".Activities.Others.PasswordActivity"
+            android:parentActivityName=".Activities.Others.LandingActivity"
+            android:screenOrientation="portrait"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.project.cse499.homecontrol.Activities.Others.LandingActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.Rooms.RoomActivity"
+            android:label="List Of Rooms"
+            android:parentActivityName=".Activities.Others.LandingActivity"
+            android:screenOrientation="portrait"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.project.cse499.homecontrol.Activities.Others.LandingActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.Rooms.EditRoomDetails"
+            android:label="Room Details"
+            android:parentActivityName=".Activities.Rooms.RoomActivity"
+            android:screenOrientation="portrait"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.project.cse499.homecontrol.Activities.Rooms.RoomActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.Devices.DevicesActivity"
+            android:label="List Of Devices"
+            android:parentActivityName=".Activities.Rooms.RoomActivity"
+            android:screenOrientation="portrait">
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.project.cse499.homecontrol.Activities.Rooms.RoomActivity" />
+        </activity>
+        <activity android:name=".Activities.Devices.EditDeviceActivity"
+            android:label="Edit Device Details"
+            android:parentActivityName=".Activities.Devices.DevicesActivity"
+            android:screenOrientation="portrait"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.project.cse499.homecontrol.Activities.Devices.DevicesActivity" />
+        </activity>
+        <activity android:name=".Activities.Devices.DeviceLog"
+            android:label="Device State Change Log"
+            android:parentActivityName=".Activities.Devices.DevicesActivity"
+            android:screenOrientation="landscape"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.project.cse499.homecontrol.Activities.Devices.DevicesActivity" />
+        </activity>
+
+    </application>
+
+</manifest>
